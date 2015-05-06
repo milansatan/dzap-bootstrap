@@ -1,0 +1,155 @@
+body {
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	background: -webkit-linear-gradient(#e2e2e2, white); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#e2e2e2, white); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#e2e2e2, white); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#e2e2e2, white); /* Standard syntax */
+  font-family: "Times New Roman", Times, serif;
+}
+
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+#darkgreybar{
+	background-color: #808080;
+	height: 5px;
+}
+
+.navbar-default {
+  border-radius: 0;
+  border: none;
+  margin-bottom: 0;
+  min-height: 80px;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+@media (max-width: 767px) { 
+    .container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .navbar-default{
+      min-height: 50px;
+    }
+    .navbar-brand {
+      padding: 0;  
+    }
+
+    .navbar-brand img {
+      margin-top: 5px;
+      margin-left: 5px;
+    }
+
+    .row img{
+      margin-bottom: 20px;
+    }
+    .container-fluid{
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+}
+
+@media (max-width: @screen-xs) {
+    body{
+      font-size: 10px;
+    }
+}
+
+@media (max-width: @screen-sm) {
+    body{
+      font-size: 10px;
+    }
+}
+
+h3{
+  font-size: 1.4em;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+} 
+
+#myCarousel{
+	padding-top: 30px;
+}
+
+#wrap img {
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #fff;
+  box-shadow: 3px 3px 10px #888888;
+}
+.row{
+  padding-top: 10px;
+}
+.row img{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+p{
+	line-height: 150%;
+	font-size: 1.1em;
+}
+
+.list ul{
+  padding-top: 20px;
+  list-style-image: url('../images/list.png');
+}
+
+.list ul li{
+  padding-bottom: 5px;
+}
+
+.list p{
+  padding-top: 20px;
+}
+
+#TFtable{
+	width: 100%; 
+	border-collapse: collapse; 
+}
+#TFtable td{ 
+	padding:7px; 
+}
+
+/*  Define the background color for all the ODD background rows  */
+#TFtable tr:nth-child(odd){ 
+	background: #d8d8d8;
+}
+/*  Define the background color for all the EVEN background rows  */
+#TFtable tr:nth-child(even){
+	background: #c2d2de;
+}
+
+#TFtable p.italic {
+  font-size: 1.4em;
+  font-style: italic;
+}
+#TFtable span.bold {
+  font-weight: bold;
+}
+
+.footer{
+	position: relative;
+  margin-top: 20px;
+  bottom: 40;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #d8d8d8;
+}
+.footer p{
+  padding-top: 20px;
+  font-size: 1em;
+}
+
+
+
